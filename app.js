@@ -8,7 +8,7 @@ const port = 9000;
 
 const connectWithDB = async () => {
     try {
-      await mongoose.connect("mongodb+srv://todo123:todo123@cluster0.vcoqkv6.mongodb.net/learnandgrow?retryWrites=true&w=majority");
+      await mongoose.connect("mongodb+srv://todo123:123Todo@cluster0.vcoqkv6.mongodb.net/learnandgrow?retryWrites=true&w=majority");
       console.log('DB Connected');
     } catch(error){
       console.log("Error while connecting with DB", error.message)
